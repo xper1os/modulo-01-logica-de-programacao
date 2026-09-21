@@ -29,5 +29,11 @@ public class ConversoesEntreTipos {
         char letra = 'A';
         int codigoDaLetra = letra;
         System.out.println("char para int: " + codigoDaLetra);
+
+        // Conversao de texto para numero
+        String numero = "10";
+        int numeroConvertido = Integer.parseInt(numero);
+        System.out.println(numeroConvertido + 10);
+
     }
 }
